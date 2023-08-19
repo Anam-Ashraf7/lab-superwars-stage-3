@@ -66,7 +66,7 @@ const buildPlayers = (players, type) => {
             fragment = heroes.map(function(player){
                 return`
                 <div class="player">
-                    <img src="${player.image}">
+                    <img src="${player.image}" alt="">
                     <div class="name">${player.name}</div>
                     <div class="strength">${player.strength}</div>
                 </div>
@@ -77,7 +77,7 @@ const buildPlayers = (players, type) => {
             fragment = villains.map(function(player){
                 return`
                 <div class="player">
-                    <img src="${player.image}">
+                    <img src="${player.image}" alt="">
                     <div class="name">${player.name}</div>
                     <div class="strength">${player.strength}</div>
                 </div>
